@@ -12,6 +12,6 @@ public class MerchandiseController {
 
     @RequestMapping("/listing")
     public List<String> listAll(){
-        return Arrays.asList("Shirts", "Trousers", "Caps", "Shoes", "Jackets");
+        return Arrays.asList("Shirts", "Trousers", "Caps", "Shoes", "Jackets", "Sweaters");
     }
 }
